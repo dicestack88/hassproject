@@ -59,6 +59,14 @@
 .reference-box li:nth-child(4) { animation-delay: .66s; }
 .reference-box li:nth-child(5) { animation-delay: .73s; }
 
+.placeholder-art img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: .01ms !important; }
 }
