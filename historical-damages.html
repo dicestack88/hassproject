@@ -1,6 +1,6 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Historical Damages | Desert Locusts</title>
@@ -8,56 +8,45 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-
-    <header>
-        <a href="index.html">Desert <em>Locusts</em></a>
-        
-        <button aria-expanded="false" aria-controls="site-nav">
-            Menu <span>+</span>
-        </button>
-        
-        <nav id="site-nav" aria-label="Main navigation">
-            <ul>
-                <li><a href="how-locusts-work.html">How they work</a></li>
-                <li><a href="combating-swarms.html">Combating swarms</a></li>
-                <li><a href="historical-damages.html" class="active">Historical damages</a></li>
-                <li><a href="desert-biome.html">Desert biome</a></li>
-                <li><a href="references.html">References</a></li>
-            </ul>
-        </nav>
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="index.html"><span class="brand-dot"></span>Desert <em>Locusts</em></a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">Menu <span>+</span></button>
+      <nav id="site-nav" aria-label="Main navigation">
+        <a href="how-locusts-work.html">How they work</a>
+        <a href="combating-swarms.html">Combating swarms</a>
+        <a class="active" href="historical-damages.html">Historical damages</a>
+        <a href="desert-biome.html">Desert biome</a>
+        <a href="references.html">References</a>
+      </nav>
     </header>
 
     <main>
-        <article>
-            <p>03 / 05</p>
-            <p>Impact through time</p>
+      <section class="page active detail-page pink">
+        <p class="page-number">03 / 05</p>
+        <p class="eyebrow">Impact through time</p>
+        <h1>Historical<br /><em>Damages.</em></h1>
+        
+        <div class="content-layout">
+          <div class="image-placeholder tall">
+            <img src="https://thewarsan.com/wp-content/uploads/2020/11/unnamed-FAO.jpg" alt="Desert Locust swarm in the Horn of Africa" />
+          </div>
+          <div class="content-placeholder">
+            <p class="lede">The Desert locust is the most dangerous migratory pest in the world. A single square kilometre of swarm can contain up to 80 million locusts. Large swarms can have devastating impacts on agriculture, food security, and the livelihoods of millions across Africa, the Middle East, and Asia.</p>
             
-            <h1>Historical<br /><em>Damages.</em></h1>
-
-            <div>
-                    <!-- Image Section -->
-                <div class="image-placeholder tall">
-                    <img src="https://thewarsan.com/wp-content/uploads/2020/11/unnamed-FAO.jpg" alt="Desert Locust" />
-                </div>
-
-                <!-- Content Section -->
-                <div>
-                    <p><strong>The Desert locust is the most dangerous migratory pest in the world. A single square kilometre of swarm can contain up to 80 million locusts, large swarms can have several hundreds of square kilometres of locusts each consuming 2 grams every day. A swarm of 500 square kilometres would consume roughly 70 million kilograms of food every day which is enough to feed 40 million people. </strong></p>
-                    
-                    <hr />
-                    
-                    <h2>2019-2021 Locust Plague</h2>
-                    <p>The 2019-2021 desert locust plague that swept through the horn of Africa is a good example of the damage desert locusts can cause to nations. The horn of Africa is home to almost 300 million people and its nations have generally small economies. When the desert locusts swarm swept through it is estimated that it caused more then 8.5  billion USD in damages which was roughly 5% of the entire regions GDP. This undoubtedly showed the depths of the damage on the local economy. However damages go even further. To combat the desert locusts, nations utilized large amount of chemical pesticides in the range of roughly 2 million litres (Lazutkaitė and Kimathi, 2024). This caused long term damage to the local agricultural industry and decimated wildlife populations like birds, this further plunged the region into food insecurity for years to follow. Overall the 2019-2021 Horn of Africa locust plague disaster caused 20 million to fall into acute food insecurity and caused lasting economic and environmental damage to the region.</p>
-                    
-                    <h2>Other Outbreaks</h2>
-                    <p>The 2019-2021 desert locust outbreak is just the most recent. Desert locust swarms occur roughly every 2 to 5 years but only a few are truly devastating and make headlines. Notable outbreaks include the 2003 - 2005 Sahara desert locust outbreaks and various outbreaks during the 20th century. All desert locust outbreaks are devastating to local, and to a lesser extent global food supplies, as well as the regional agricultural economy. </p>
-                </div>
-            </div>
-        </article>
+            <hr />
+            
+            <h2>2019-2021 Locust Plague</h2>
+            <p>The 2019-2021 desert locust plague that swept through the horn of Africa is a good example of the damage desert locusts can cause to nations. The horn of Africa is home to millions of people dependent on agriculture and livestock. The massive swarms destroyed crops and pasture across Ethiopia, Kenya, Somalia, and other East African countries, leading to widespread famine and humanitarian crisis affecting millions.</p>
+            
+            <h2>Other Outbreaks</h2>
+            <p>The 2019-2021 desert locust outbreak is just the most recent. Desert locust swarms occur roughly every 2 to 5 years but only a few are truly devastating and make headlines. Historical records show major outbreaks in 1987-1989, 2003-2005, and numerous smaller incidents throughout the 20th century. Each outbreak brings significant economic losses and food security threats to vulnerable populations.</p>
+          </div>
+        </div>
+      </section>
     </main>
-
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
