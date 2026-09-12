@@ -1,4 +1,3 @@
-```css
 :root {
   --ink: #e9e4d2;
   --muted: #a8ad91;
@@ -9,14 +8,9 @@
   --orange: #f0a34b;
   --pink: #e79179;
   --blue: #8ab9ad;
-  --accent: var(--lime);
+  --accent: #c8ed4a;
   --line: rgba(233, 228, 210, 0.16);
 }
-
-
-/* =========================================================
-   BASE
-   ========================================================= */
 
 * {
   box-sizing: border-box;
@@ -29,8 +23,12 @@ html {
 body {
   min-width: 320px;
   margin: 0;
-  color: var(--ink);
-  background:
+
+  /* FORCE the dark theme */
+  color: #e9e4d2;
+  background-color: #080b07;
+
+  background-image:
     radial-gradient(
       circle at 82% -10%,
       rgba(200, 237, 74, 0.14),
@@ -40,8 +38,8 @@ body {
       circle at -4% 48%,
       rgba(148, 91, 35, 0.16),
       transparent 32rem
-    ),
-    var(--deep);
+    );
+
   font: 400 18px/1.6 "Space Grotesk", sans-serif;
 }
 
